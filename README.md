@@ -42,5 +42,6 @@ I clustered the cryptocurrencies using the PCA data with the best value for k th
    - The x-axis represented "price_change_percentage_24h," and the y-axis was "price_change_percentage_7d."
    - Graph points were colored according to the K-means labels.
    - I included the "coin_id" column in the hover_cols parameter to identify each cryptocurrency in the plot.
-"What is the impact of using fewer features to cluster the data using K-Means?"
+
+Question: "What is the impact of using fewer features to cluster the data using K-Means?"
 - Utilizing PCA data led to tighter cluster formations and increased the number of entries in both cluster 0 and cluster 1 compared to the initial analysis.
